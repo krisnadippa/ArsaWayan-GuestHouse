@@ -32,7 +32,7 @@ export default function ActivityModal({ isOpen, onClose, activity }: ActivityMod
 
   const handleBooking = () => {
     // Placeholder phone number
-    const phoneNumber = "628123456789"; 
+    const phoneNumber = "6281339711438"; 
     const message = `Hello, I'm interested in booking the "${activity.title}" activity at Arsa Wayan Guest House.`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;

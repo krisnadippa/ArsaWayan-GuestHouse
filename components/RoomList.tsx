@@ -51,7 +51,7 @@ export default function RoomList() {
   ];
 
   // Placeholder phone number - REPLACE with actual number
-  const phoneNumber = "628123456789"; 
+  const phoneNumber = "6281339711438"; 
 
   const handleOpenModal = (room: any) => {
     setSelectedRoom({ ...room, phoneNumber });
